@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Task4 {
 
     public static char[][] map;
-    public static final int SIZE = 3;
-    public static final int LINE_TO_WIN = 3;
+    public static final int SIZE = 5;
+    public static final int LINE_TO_WIN = 4;
     public static final char DOT_X = 'X';
     public static final char DOT_O = 'O';
     public static final char DOT_EMPTY = '.';
