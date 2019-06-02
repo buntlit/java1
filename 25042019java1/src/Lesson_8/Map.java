@@ -41,7 +41,6 @@ public class Map extends JPanel {
     public void update(MouseEvent e) {
         this.cellX = e.getX() / cellWidth;
         this.cellY = e.getY() / cellHeight;
-        System.out.println(cellX + " " + cellY);
         repaint();
         if (mode == MODE_H_V_A) {
             if (H_V_A.isCellValid(cellX, cellY)) {
